@@ -32,8 +32,9 @@ $('.navbar a').on('click', function(e) {
 }); 
 
 // add active class on click
-$('.navbar ul li a').on('click', function(){
-        $(this).addClass('active').siblings().removeClass('active');
+$('.navbar ul li a').on('click', function(){       
+        $('.navbar ul li a.active').removeClass('active');
+        $(this).addClass('active');
 });
 
 // about section expand
