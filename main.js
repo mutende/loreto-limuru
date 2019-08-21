@@ -59,3 +59,15 @@ $('.staff-more a').on('click', function(e){
                 x.innerHTML = "More...";
               }
 })
+
+
+// academic section expand
+$('.toggle-science a').on('click', function(e){
+        document.querySelector('.science').classList.toggle('science-full');
+        var x = document.getElementById("readmore-sci");
+        if (x.innerHTML === "Read more ...") {
+                x.innerHTML = "Minimize";
+              } else {
+                x.innerHTML = "Read more ...";
+              }
+})

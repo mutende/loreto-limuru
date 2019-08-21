@@ -229,4 +229,46 @@ body{
    width: 100%;
    scroll-snap-align: center;
  }
+
+
+ /* academics style */
+ .math-languages{
+  height: 270px;
+  overflow: hidden;
+  transition: all .6s ease;
+
+ }
+
+ .math-languages p{
+   text-align: justify;
+ }
+.humanities-technical{
+  height: 280px;
+  overflow: hidden;
+  transition: all .6s ease;
+
+}
+ .humanities-technical p{
+  text-align: justify;
+ }
+
+ .science{
+  height: 280px;
+  overflow: hidden;
+  transition: all .3s ease;
+ }
+
+ .science.science-full{
+   height:2140px;
+ }
+ .science p{
+  text-align: justify;
+ }
+#readmore-sci, #readmore-ml, #readmore-ht{
+  font-weight: bold; font-size: 22px;
+ }
+ #readmore-sci:hover, #readmore-ml:hover, #readmore-ht:hover{
+  color: red !important;
+  cursor: pointer;
+ }
 /* end css */

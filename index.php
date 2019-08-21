@@ -192,7 +192,7 @@
 
 <?php include 'includes/footer.html';?>
 <!-- footer -->
-<!-- <h2 class="animated bounce infinite delay-1s">Shaking head</h2> -->
+
     
     <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
     <script src="bootstrap/js/popper.min.js"></script>
