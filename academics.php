@@ -13,13 +13,43 @@
     <title>Loreto High School Limuru | Departments </title>
 </head>
 <body>
-    <!-- Navbar -->
-    <?php include 'includes/nav2.html';?>
+    
+<!-- Nav-->
+<header>     
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar bg-white">
+          <div class="container">
+            <a class="navbar-brand absolute" href="index.php"> <img src="images/fav-icon.png" height="50" width="50" class="img mr-2" alt="logo"><strong> Loreto High School Limuru</strong>
+            </a></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+              <ul class="navbar-nav mx-auto">                            
+                <li class="nav-item">
+                  <a class="nav-link" href='index.php'>Home</a>
+                </li>                                           
+                <li class="nav-item">
+                    <a class="nav-link active" href='academics.php'>Academics</a>
+                  </li>   
+                  <li class="nav-item">
+                      <a class="nav-link" href='departments.php'>Departments</a>
+                  </li>                                                                    
+                <li class="nav-item">
+                  <a class="nav-link" href='portal.php'>Portal</a>
+                </li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+              </ul>          
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- end Nav -->
+
     <br>
     <br>
     <br>
     <br>
-<!-- Navbar -->
+>
 <!-- content -->
 <div class="container">
     <div class="row math-languages wow slideInLeft">
