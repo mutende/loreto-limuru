@@ -25,12 +25,11 @@
     <div class="row math-languages wow slideInLeft">
         <!-- math -->
             <div class="col-md-6">
-
                 <h3 class="text-center">Mathematics</h3>
                 <hr>
                     <p>The Mathematics Department comprises of nine staff members. The department is headed by Mrs Elsy Njagi. The Mathematics department senior head is a dedicated maths teacher, who possesses a wealth of experience in her specialization. She has taught in various schools in Kenya. She has a good record of performance in her teaching career. She has held this position since 2014 to date. Through her leadership, the department has grown from strength to strength over the years. The success of the department is attributed to the strong team work and commitment amongst the members. The members play crucial role in curriculum delivery and implementation.</p>
                     <h5>Members of the Department</h5>
-                    <table class="table">
+                    <table class="table table-sm">
                     <thead class="thead-light">
                     <tr>
                     <th scope="col">Name</th>
@@ -130,7 +129,7 @@
                 <h5>Members of the Department</h5>
                 </section>
                 <div class="col-md-12">
-                <table class="table">
+                <table class="table table-sm">
                 <thead class="thead-light">
                 <tr>
                 <th scope="col">Name</th>
@@ -241,8 +240,8 @@
 
             </div>
     </div>
-    <div class="col-md-10 ml-auto mr-auto text-center wow slideInLeft">
-        <a id="readmore-ml" class="btn btn-sm btn-outline-grey">Read more ...</a>
+    <div class="col-md-10 toggle-ml ml-auto mr-auto text-center wow slideInLeft mb-5">
+        <a id="readmore-ml">Read more ...</a>
     </div>
     <div class="row humanities-technical wow slideInLeft">
         <!-- humanities -->
@@ -274,7 +273,7 @@
            <hr>
            <p>Technical department is made of seven subjects which are divided into two:</p>
             <br />
-            <table class="table table-bordered">
+            <table class="table table-bordered table-sm">
             <thead class="thead-light">
             <tr>
             <th scope="col">Technical 1</th>
@@ -304,7 +303,7 @@
             <p>In form 1 &amp; 2 students are supposed to take one subject from technical 1 and one subject from technical 2. Computer studies is compulsory in form 1. In form 2 second term, students are supposed to choose one of the two technical subjects that they took in form 1. The subject they take should be one that they have passion and perform best. Music, computer studies, art &amp; design and French have fewer students compared to the other three subjects because they require talent and creativity. By and large technical department is very dynamic contributing greatly to the overall performance of the School Mean. The department has a workforce of nine teachers namely:<br /> <br /></p>
             <h5>Members of Department</h5>	
             <div class="col-md-12">
-            <table class="table">
+            <table class="table table-sm">
             <tbody>
             <tr>
             <td scope="row">1. Mrs. Mary Chege -Head of the Department</td>
@@ -342,8 +341,8 @@
    
        
     </div>
-    <div class="col-md-10 ml-auto mr-auto text-center wow slideInLeft">
-        <a  id="readmore-ht" class="btn btn-sm btn-outline-grey">Read more ...</a>
+    <div class="col-md-10 toggle-ht ml-auto mr-auto text-center wow slideInLeft mb-5">
+        <a  id="readmore-ht">Read more ...</a>
     </div>
        
     <div class="row science wow slideInLeft">
@@ -357,7 +356,7 @@
                 <h5>Staff</h5>
                 <p>The department prides itself of having a rich blend of professionals: our diversity in terms of gender, age, experience and locus provides learners with multifaceted avenues of learning. This diversity not only enriches our competence and expertise as teachers, but also ensures that we cater for the learning profiles of each and every learner. <br />Here are some of our staff;</p>
                 <div class="col-md-12">
-                <table class="table table-bordered">
+                <table class="table table-bordered table-sm">
                 <thead class="thead-light">
                 <tr>
                 <th scope="col">Name</th>

@@ -231,13 +231,16 @@ body{
  }
 
 
- /* academics style */
+ /*academics */
  .math-languages{
   height: 270px;
   overflow: hidden;
   transition: all .6s ease;
-
  }
+
+ .math-languages.math-languages-full{
+  height:3600px;
+}
 
  .math-languages p{
    text-align: justify;
@@ -246,8 +249,13 @@ body{
   height: 280px;
   overflow: hidden;
   transition: all .6s ease;
-
 }
+
+.humanities-technical.humanities-technical-full{
+  height:1600px;
+}
+
+
  .humanities-technical p{
   text-align: justify;
  }
@@ -268,6 +276,58 @@ body{
   font-weight: bold; font-size: 22px;
  }
  #readmore-sci:hover, #readmore-ml:hover, #readmore-ht:hover{
+  color: red !important;
+  cursor: pointer;
+ }
+
+
+ /* departments */
+
+ .gg{
+  height: 280px;
+  overflow: hidden;
+  transition: all .3s ease;
+
+ }
+
+ .gg.gg-full{
+  height:1350px;
+}
+ .gg p{
+   text-align: justify;
+ }
+
+ .cc{
+  height: 280px;
+  overflow: hidden;
+  transition: all .3s ease;
+ }
+
+ .cc.cc-full{
+  height:2140px;
+}
+
+ .cc p{
+   text-align: justify;
+ }
+
+ .boarding{
+  height: 220px;
+  overflow: hidden;
+  transition: all .3s ease;
+ }
+ .boarding.boarding-full{
+  height:1540px;
+}
+ .boarding p{
+   text-align: justify
+ }
+
+
+ #readmore-boarding,#readmore-cc,#readmore-gg{
+  font-weight: bold; font-size: 22px;
+ }
+ #readmore-boarding:hover,#readmore-cc:hover,#readmore-gg:hover{
   color: red !important;
   cursor: pointer;
  }
